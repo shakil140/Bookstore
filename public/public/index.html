@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSFAIR</title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="top_header">
+        <table border="0" width="100%" bgcolor=linear-gradiant>
+            <th width="60%">
+            </th>
+
+
+
+
+            <th width="10%">
+                <div class="login">
+                    <font color="white">
+                        <span> Login & Signup</span>
+                    </font>
+                    <div class="login-content">
+                        <a href="admin-login.html">Admin</a><br>
+                        <a href="user-sign-in.html">User</a>
+
+                    </div>
+                </div>
+            </th>
+
+
+
+            <th width="10%">
+                <font color="white">
+                    Contact us
+                </font>
+            </th>
+            <th width="10%">
+                <font color="white">
+                    Shopping
+                </font>
+            </th>
+            <th width="10%">
+                <font color="white">
+                    Return
+                </font>
+            </th>
+        </table>
+
+        <table border="0" width="100%" bgcolor="#oih885ff">
+            <tr>
+                <th width="25%" align="right">
+
+                    <a class="logo">
+                        BooksFair
+                    </a>
+
+                </th>
+                <td width="40%">
+                    <input class="Search" type="text" placeholder="Search by Title, Author,Book Name">
+                    <input class="sButton" type="button" value="Search">
+
+                </td>
+                <th width="10%"><i class="fa fa-shopping-bag" arial-hidden="true" style="font-size:48px;"></i></th>
+            </tr>
+
+
+        </table>
+
+        <table border="0" width="100%" bgcolor="#oih885ff">
+            <tr>
+
+                <th width="22%">
+
+                </th>
+                <th width="20%">Home</th>
+                <th width="20%">
+                    <div class="dropdown">
+                        <span> Category</span>
+                        <div class="dropdown-content">
+                            <p>Novel</p>
+                            <p>Text Book</p>
+                            <p>Arts</p>
+                            <p>Engineering</p>
+                            <p>Computer</p>
+                            <p>Programming</p>
+
+                        </div>
+                    </div>
+                </th>
+                </th>
+
+
+                <th width="20%">
+                    <div class="dropdown">
+                        <span> Fictional</span>
+                        <div class="dropdown-content">
+                            <p>Novel</p>
+                            <p>Text Book</p>
+                            <p>Arts</p>
+                            <p>Engineering</p>
+                            <p>Computer</p>
+                            <p>Programming</p>
+
+                        </div>
+                    </div>
+                </th>
+
+
+
+                <th width="20%">
+                    <div class="dropdown">
+                        <span> Non-Fictional</span>
+                        <div class="dropdown-content">
+                            <p>Novel</p>
+                            <p>Text Book</p>
+                            <p>Arts</p>
+                            <p>Engineering</p>
+                            <p>Computer</p>
+                            <p>Programming</p>
+
+                        </div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div class="slidespkuyfdtdgc ">
+
+        <div class="mySlides fade">
+
+            <img src="banner1.jpg">
+
+        </div>
+
+
+        <div class="mySlides fade">
+
+            <img src="banner3.jpg">
+
+        </div>
+        <div class="mySlides fade">
+
+            <img src="banner2.jpg">
+
+        </div>
+
+    </div>
+    <br>
+
+    <div class="dott" style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <br>
+
+
+
+    <table class="bandowntable" border="0" width="67%" bgcolor="#dff7e4" align="right">
+        <tr>
+            <td colspan="5">
+                <h2>New Arival</h2>
+                <hr>
+            </td>
+        </tr>
+
+        <tr>
+
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+        </tr>
+        <tr>
+            <tr>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+            </tr>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+        </tr>
+    </table>
+
+
+    <table class="bandowntable" border="0" width="67%" bgcolor="#dff7e4" align="right">
+        <tr>
+            <td colspan="5">
+                <h2>Popular</h2>
+                <hr>
+            </td>
+        </tr>
+
+        <tr>
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+            <th class="hover_zoom"><img src="p6.jpg" width="75%"></th>
+
+
+        </tr>
+        <tr>
+            <tr>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+                <th>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star checked" style="color:oraged;"></span>
+                    <span class="fa fa-star "></span>
+                </th>
+            </tr>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+            <th>
+                Price:
+                <font color="red">349/-</font>
+            </th>
+        </tr>
+    </table>
+
+
+    <div class="book-container">
+        <div class="book-leftbar">
+            <div class="books-category">
+                <h2 class="left-category">Browse by Category</h2>
+                <ul style="list-style-type:none;">
+                    <li><a href="architechture.html">Architecture</a></li>
+                    <li><a href="Arts & Photography.html">Arts & Photography</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+
+<footer id="footer">
+    <table border="0" bgcolor="#00fr" width="100%">
+        <tr>
+            <th bgcolor="blue" width="25% ">
+                <font color="black "><b>Quick Links</b></font>
+            </th>
+            <th bgcolor="blue " width="25% ">
+                <font color="black "><b>Follow Us</b></font>
+            </th>
+            <th bgcolor="blue " width="25% ">
+                <font color="black "><b>Contact</b></font>
+            </th>
+            <th bgcolor="blue " width="25% ">
+                <font color="black "><b>Search</b></font>
+            </th>
+
+        </tr>
+        <tr>
+            <td>
+                <ul style="list-style-type:none;">
+                    <li>Text Book</li>
+                    <li>Engineering</li>
+                    <li>Novel</li>
+                    <li>Biography</li>
+                </ul>
+            </td>
+
+            <td>
+                <ul style="list-style-type:none;">
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </td>
+            <td>
+                <ul style="list-style-type:none;">
+                    <li>FuzionWorld</li>
+                    <li>+91 6001978049</li>
+                    <li>India</li>
+                    <li>784514</li>
+                </ul>
+            </td>
+            <td>
+                <input type="text " placeholder="search">
+                <input type="button" value="search ">
+            </td>
+        </tr>
+    </table>
+</footer>
+
+</html>
